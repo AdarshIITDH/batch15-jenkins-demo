@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Example Shared Step') {
             steps {
-                sayHello('Adarsh') // Call the function defined in vars/sayHello.groovy
+                sayHello('Adarsh from batch 15') // Call the function defined in vars/sayHello.groovy
             }
         }
     }
